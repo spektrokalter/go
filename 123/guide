@@ -1,0 +1,13 @@
+go
+
+	|not |i- |i+
+	, |goimports
+
+	Watch go test
+
+init
+
+	mv 123.go bar.go
+	mv 123_test.go bar_test.go
+
+	go mod init 123
